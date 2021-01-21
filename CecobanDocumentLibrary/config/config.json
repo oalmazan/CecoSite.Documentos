@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cecoban-document-library-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cecobanDocumentLibrary/CecobanDocumentLibraryWebPart.js",
+          "manifest": "./src/webparts/cecobanDocumentLibrary/CecobanDocumentLibraryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CecobanDocumentLibraryWebPartStrings": "lib/webparts/cecobanDocumentLibrary/loc/{locale}.js"
+  }
+}

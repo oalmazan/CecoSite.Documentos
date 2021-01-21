@@ -1,0 +1,112 @@
+body{
+    background-color:rgba(255,255,255,0.0) !important;;
+    font-family:"Segoe UI", "Segoe UI", Segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-size:13px;
+    font-style:normal;
+}
+
+.CanvasZoneContainer, .CanvasZone, #spSiteHeader,
+.webPartContainer,  .ControlZone--control {
+    background-color: rgba(255,255,255,0.5) !important;
+    font-family:"Segoe UI", "Segoe UI", Segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-size:13px;
+    font-style:normal;
+}
+
+#workbenchPageContent{
+    width: 100%;
+    max-width: 100%;
+}
+.ms-Fabric .actionButtonCls {
+    background-color: rgb(0, 120, 212) !important;
+    color: white !important;
+}
+.ms-Fabric .textFieldCls,
+.ms-Fabric .ms-TextField-wrapper {
+    display: inline-flex !important;
+}
+.ms-Fabric .ms-DetailsList,
+.ms-Fabric .ms-DetailsList div{
+    background-color:rgba(255,255,255,0.0) !important;;
+    cursor: pointer;
+}
+.ms-Fabric .ms-DetailsList div [data-automation-key=name]{
+    font-weight: normal;
+    text-decoration: underline;
+}
+.ms-Fabric .ms-DetailsList div [data-automation-key=name]:hover{
+    font-weight: bold;
+    color: mediumblue;
+    text-decoration: none;
+}
+.ms-Fabric .ms-DetailsHeader{
+    height: 84px !important;
+    border: 0 !important;
+}   
+.ms-Fabric .ms-DetailsRow-fields,
+.ms-Fabric .ms-DetailsList-contentWrapper{
+    border: 0;
+    border-style: none;
+}   
+.ms-Fabric .ms-DetailsRow {
+    border-bottom-color:rgb(146, 192, 224);
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-collapse:collapse;
+    border-top-style:none;
+    border-top-width:0;
+}   
+.ms-Fabric .ms-DetailsList-headerWrapper {
+    height: 84px !important;
+    border-bottom-color:rgb(146, 192, 224);
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-collapse:collapse;
+    border-top-color:rgb(146, 192, 224);
+    border-top-style:solid;
+    border-top-width:1px;
+    color:rgb(68, 68, 68);
+}   
+.ms-Fabric .ms-DetailsList-headerWrapper,
+.ms-Fabric .ms-DetailsList-contentWrapper{
+    font-variant-caps:normal;
+    font-variant-east-asian:normal;
+    font-variant-ligatures:normal;
+    font-variant-numeric:normal;
+    font-weight:400;
+    letter-spacing:normal;
+    orphans:2;
+    overflow-wrap:break-word;
+    text-align:left;
+    text-indent:0px;
+    text-transform:none;
+    vertical-align:middle;
+    white-space:normal;
+    word-spacing:0px;
+    -webkit-border-horizontal-spacing:0px;
+    -webkit-border-vertical-spacing:0px;
+}
+.ms-Fabric .table-header,
+.ms-Fabric .ms-DetailsHeader-cellName{
+    border-collapse:collapse;
+    color:rgb(0, 57, 99);
+    display:inline;
+    font-size:17.33px;
+    font-variant-caps:normal;
+    font-variant-east-asian:normal;
+    font-variant-ligatures:normal;
+    font-variant-numeric:normal;
+    font-weight:700;
+    height:auto;
+    letter-spacing:normal;
+    orphans:2;
+    overflow-wrap:break-word;
+    text-align:left;
+    text-indent:0px;
+    text-transform:none;
+    white-space:normal;
+    width:auto;
+    word-spacing:0px;
+    -webkit-border-horizontal-spacing:0px;
+    -webkit-border-vertical-spacing:0px;
+}
